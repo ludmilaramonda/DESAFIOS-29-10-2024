@@ -1,5 +1,13 @@
 # DESAFIOS-29-10-2024
 
+Integrantes: 
+Alma Constanza puta Moyano Fenandez
+Dana Betsabe Farias Heredia 
+Ludmila Ramonda
+Zoe Cristal Blanco
+
+
+
 Canva/Diseño: https://www.canva.com/design/DAGS_KfGXwM/XGYltMhmtTjIIHh0Hm9v7A/view?utm_content=DAGS_KfGXwM&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Documentación: https://docs.google.com/document/d/1sdZg7Kg2Hdl2Kmxg54iGO-bWNCxWgzDI6M-3TDtHDhU/edit?usp=sharing
