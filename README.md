@@ -1,9 +1,12 @@
 # DESAFIOS-29-10-2024
 
 Integrantes: 
-Alma Constanza puta Moyano Fenandez
+Alma Constanza Moyano Fenandez
+
 Dana Betsabe Farias Heredia 
+
 Ludmila Ramonda
+
 Zoe Cristal Blanco
 
 
