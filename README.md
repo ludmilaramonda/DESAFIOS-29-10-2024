@@ -26,8 +26,7 @@ Este desafio consiste en crear una interfaz  donde se muestren los datos emitido
 vincular directamente al usuario al puerto que se conectara , en nuestro caso producimos esto con un boton desplegable con opciones para elejir 
 tipo de puerto, debajo del mismo se muestra por pantalla si el mismo esta CONECTADO/DESCONENTADO.Utilizamos marcos como tablas para mostrar los valores 
 de los datos de manera dinamica ilustrando tendencias de los datos del sensor.Los mismos seran leidos y analizados a travez de JavaScript, y TypeScript . 
-Nuestro diseño principal cuenta con un desplegale que ayuda a elejir el tipo de puerto que usuario requiera y asi conectarlo con el sensor
-debajo del mismo te dira el estado de conexion (Conectado/Desconectado). 
+
 
 OBJETIVOS DEL PROYECTO:
 
