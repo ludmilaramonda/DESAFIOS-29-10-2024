@@ -1,4 +1,30 @@
-/* Estilos generales */
+
+
+/* Estilos para el header */
+header {
+    background-color: #003d1f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #003d1f;;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Asegurarse que el contenido principal no quede tapado por el footer */
+.container {
+    margin-bottom: 60px; /* Espacio para el footer */
+}
+
+
 * {
     margin: 0;
     padding: 0;
