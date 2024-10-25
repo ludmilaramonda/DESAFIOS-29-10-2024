@@ -1,12 +1,9 @@
-
-
 header {
     background-color: #003d1f;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
-
 
 footer {
     background-color: #003d1f;;
@@ -19,14 +16,9 @@ footer {
    
 }
 
-
-
-
-
 .container {
     margin-bottom: 60px; 
     }
-
 
 * {
     margin: 0;

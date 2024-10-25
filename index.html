@@ -7,53 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
         <h1>Monitor de Datos del Sensor</h1>
-
-        
         <div class="connection-section">
             <label for="ports">Seleccionar puerto:</label>
             <select id="ports">
-                
-                <option value="" disabled selected>USB</option>
-                <option value="" disabled selected>Bluetooth</option>
-                <option value="" disabled selected>Elige un puerto</option>
-                
+                <option value="USB">USB</option>
+                <option value="Bluetooth">Bluetooth</option>
             </select>
             <button id="connect-btn">Conectar</button>
             <p id="connection-status">Estado: Desconectado</p>
         </div>
-
-       
         <div class="data-section">
             <div class="data-box">
                 <h2>Valores Actuales</h2>
                 <div id="sensor-values">
-                    <!-- Aquí se mostrarán los valores del sensor -->
                     <p>Esperando datos...</p>
                 </div>
             </div>
             <div class="data-box">
                 <h2>Tendencias</h2>
                 <div id="sensor-graph">
-                    <!-- Aquí se mostrarán gráficos o tendencias -->
                     <canvas id="trend-chart"></canvas>
                 </div>
             </div>
         </div>
     </div>
-
-    
     <footer>
-
-        <img src="img/logo transparente (2) (2).png" alt="logo proA" height="50" width="50">
-
+        <img src="img/LogoTransparenteProA.png" alt="logo proA" height="50" width="50">
         <p style="text-align: center;"> &copy; 2024 Las Danas.Todos los derechos reservados.</p>
-
-       
     </footer>
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="desafio.js"></script>
 </body>
 </html>

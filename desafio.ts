@@ -1,31 +1,24 @@
-document.getElementById('connect-btn').addEventListener('click', function() {
+// Añade un listener al botón 'connect-btn' para manejar la acción de clic.
+document.getElementById('connect-btn')!.addEventListener('click', function() {
+    const connectionStatus = document.getElementById('connection-status') as HTMLElement;
+    const portsSelect = document.getElementById('ports') as HTMLSelectElement;
 
-    const connectionStatus = document.getElementById('connection-status');
-    connectionStatus.textContent = "Estado: Conectado";
-    connectionStatus.style.color = "green";
-   
-    simulateSensorData();
+    // Verificar si se ha seleccionado un puerto válido.
+    if (portsSelect.value !== "" && portsSelect.value !== "Elige un puerto") {
+        connectionStatus.textContent = "Estado: Conectado";
+        connectionStatus.style.color = "green";
+        alert(`Puerto ${portsSelect.value} seleccionado y conectado.`);
+    } else {
+        connectionStatus.textContent = "Estado: Desconectado";
+        connectionStatus.style.color = "red";
+        alert("Por favor, selecciona un puerto válido.");
+    }
 });
 
-
-function simulateSensorData() {
-    const sensorValues = document.getElementById('sensor-values');
-    sensorValues.innerHTML = "<p>Temperatura: 22°C</p><p>Humedad: 45%</p>";
-    
-
-    let ctx = document.getElementById('trend-chart').getContext('2d');
-    let chart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: ['Tiempo 1', 'Tiempo 2', 'Tiempo 3', 'Tiempo 4', 'Tiempo 5'],
-            datasets: [{
-                label: 'Temperatura (°C)',
-                borderColor: 'green',
-                data: [22, 23, 21, 22, 24]
-            }]
-        },
-        options: {
-            responsive: true
-        }
-    });
-}
+// Agrega un listener al elemento select 'ports' para manejar la selección de un puerto.
+document.getElementById('ports')!.addEventListener('change', function() {
+    const selectedPort = (this as HTMLSelectElement).value;
+    if (selectedPort !== "Elige un puerto") {
+        alert(`Puerto ${selectedPort} seleccionado.`);
+    }
+});
