@@ -30,4 +30,10 @@ de los datos de manera dinamica ilustrando tendencias de los datos del sensor.Lo
 
 OBJETIVOS DEL PROYECTO:
 
-1-
+1-Desarrollar una interfaz que visualice los datos emitidos por el sensor
+2- Diseñar un estilo amigable y apicable para nuestra necesidad.
+3-Permitir conectar el sensor con  el dispositivo mediante conexion bluetooth.
+4-Crear una seccion en nuestra interfaz que permita al usuario seleccionar el puerto al que se conectara.
+5-Mostrar el estado de conexion (conectado/no conectado)
+
+
