@@ -14,7 +14,7 @@ function simulateSensorData() {
     // Obtener el elemento que muestra los valores de los sensores
     var sensorValues = document.getElementById('sensor-values');
     // Establecer el contenido HTML del elemento con los valores actuales de los sensores
-    sensorValues.innerHTML = "<p>Temperatura: 22°C</p><p>Humedad: 45%</p>";
+    sensorValues.innerHTML = "<p>Concentracion : 22m3</p><p>Gas : 45%</p>";
     // Obtener el contexto del canvas donde se graficará la tendencia de la temperatura
     var ctx = document.getElementById('trend-chart').getContext('2d');
     // Crear una nueva gráfica de línea en el contexto obtenido
@@ -23,7 +23,7 @@ function simulateSensorData() {
         data: {
             labels: ['Tiempo 1', 'Tiempo 2', 'Tiempo 3', 'Tiempo 4', 'Tiempo 5'], // Etiquetas del eje X
             datasets: [{
-                    label: 'Temperatura (°C)', // Etiqueta del conjunto de datos
+                    label: 'Concentracion de Gas (m3)', // Etiqueta del conjunto de datos
                     borderColor: 'green', // Color de la línea de la gráfica
                     data: [22, 23, 21, 22, 24] // Datos de temperatura
                 }]

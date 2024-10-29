@@ -79,6 +79,33 @@ h1 {
     color: #006837;
 }
 
+
+.disconnected-section {
+    margin-bottom: 20px;
+}
+.disconnected-section select, .disconnected-section button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;    
+}
+
+#disconnect-btn {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#disconnect-btn:hover {
+    background-color: #218838;
+}
+
+#disconnect-status {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #006837;
+}
+
 /* Sección de visualización de datos */
 .data-section {
     display: flex;
