@@ -2,7 +2,7 @@
 document.getElementById('connect-btn')!.addEventListener('click', function() {
     const connectionStatus = document.getElementById('connection-status') as HTMLElement;
     const portsSelect = document.getElementById('ports') as HTMLSelectElement;
-{}
+});
 document.getElementById('disconnect-btn')!.addEventListener('click', function() {
         const connectionStatus = document.getElementById('connection-status') as HTMLElement;
         const disconnectButton = document.getElementById('disconnect-btn') as HTMLButtonElement;
