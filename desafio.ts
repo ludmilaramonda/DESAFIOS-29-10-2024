@@ -9,6 +9,7 @@ document.getElementById('disconnect-btn')!.addEventListener('click', function() 
         const connectButton = document.getElementById('connect-btn') as HTMLButtonElement;
 
     // Verificar si se ha seleccionado un puerto válido.
+        const portsSelect = document.getElementById('ports') as HTMLSelectElement;
     if (portsSelect.value !== "" && portsSelect.value !== "Elige un puerto") {
         connectionStatus.textContent = "Estado: Conectado";
         connectionStatus.style.color = "green";
@@ -29,4 +30,12 @@ document.getElementById('ports')!.addEventListener('change', function() {
     if (selectedPort !== "Elige un puerto") {
         alert(`Puerto ${selectedPort} seleccionado.`);
     }
+});
+
+document.getElementById('desconnect-btn')!.addEventListener('click', () => {
+    // Desconectar puerto (si fuera necesario, agrega lógica específica aquí)
+    console.log("Puerto desconectado.");
+
+    // Reiniciar la página
+    location.reload();
 });
