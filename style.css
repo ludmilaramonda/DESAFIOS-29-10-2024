@@ -90,17 +90,17 @@ h1 {
     border-radius: 5px;    
 }
 
-#disconnect-btn {
+#desconnect-btn {
     background-color: #28a745;
     color: white;
     cursor: pointer;
 }
 
-#disconnect-btn:hover {
+#desconnect-btn:hover {
     background-color: #218838;
 }
 
-#disconnect-status {
+#desconnect-status {
     font-size: 14px;
     margin-top: 10px;
     color: #006837;
